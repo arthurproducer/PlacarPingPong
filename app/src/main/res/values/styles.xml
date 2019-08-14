@@ -10,8 +10,26 @@
 
     <style name="FullScreen" parent="AppTheme">
         <item name="windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="divider">
+        <item name="android:background">@color/colorDivider</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="homeedittext">
+        <item name="android:background">@drawable/homebackground</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+    </style>
+
+    <style name="awayedittext">
+        <item name="android:background">@drawable/awaybackground</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+    </style>
+    <style name="custombutton">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColorHint">#25206B</item>
+    </style>
 </resources>

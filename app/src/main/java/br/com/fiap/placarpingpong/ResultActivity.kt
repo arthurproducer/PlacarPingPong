@@ -7,6 +7,6 @@ class ResultActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_placar)
+        setContentView(R.layout.activity_result)
     }
 }
